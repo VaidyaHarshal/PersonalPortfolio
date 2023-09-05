@@ -24,5 +24,28 @@
             "title": "Web Development",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique."
         }
+    ],
+    "portfolio": [
+        {
+            "id": 1,
+            "src": "./img/placeholder-img.jpg",
+            "title": "House of Books",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique.",
+            "link": "View in Github"
+        },
+        {
+            "id": 2,
+            "src": "./img/placeholder-img-2.jpg",
+            "title": "Stevens Care",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique.",
+            "link": "View in Github"
+        },
+        {
+            "id": 3,
+            "src": "./img/placeholder-img-1.jpg",
+            "title": "My Parking Assistant",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique.",
+            "link": "View in Github"
+        }
     ]
 }
