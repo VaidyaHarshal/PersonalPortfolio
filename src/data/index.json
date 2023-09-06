@@ -4,25 +4,25 @@
             "id": 1,
             "src": "./img/product-chain-1.png",
             "title": "Front-End",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique."
+            "description": "JavaScript, React, Redux, HTML, CSS."
         },
         {
             "id": 2,
             "src": "./img/tag-1.png",
             "title": "Back-End",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique."
+            "description": "Java, C/C++, Python, Node.js, Express"
         },
         {
             "id": 3,
             "src": "./img/feather-pen-2.png",
-            "title": "UI & UX Design",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique."
+            "title": "Database",
+            "description": "MySQL, MongoDB, PostgreSQL, SQL, Oracle."
         },
         {
             "id": 4,
             "src": "./img/feather-pen-1.png",
             "title": "Web Development",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique."
+            "description": "Redis, GraphQL, Firebase, Socket.IO, Heroku, Netlify."
         }
     ],
     "portfolio": [
@@ -30,21 +30,21 @@
             "id": 1,
             "src": "./img/placeholder-img.jpg",
             "title": "House of Books",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique.",
+            "description": "A one-stop-destination web application for all the reading enthusiasts, booksellers and authors",
             "link": "View in Github"
         },
         {
             "id": 2,
             "src": "./img/placeholder-img-2.jpg",
             "title": "Stevens Care",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique.",
+            "description": "A web application that allows users to get help from doctor through online platform with the help of multiple questionnaire which will help doctor to diagnose their problems",
             "link": "View in Github"
         },
         {
             "id": 3,
             "src": "./img/placeholder-img-1.jpg",
             "title": "My Parking Assistant",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suspenmdisse varius eim in eros elementum tristique.",
+            "description": "A parking booking application designed to list and rent out parking spaces",
             "link": "View in Github"
         }
     ]

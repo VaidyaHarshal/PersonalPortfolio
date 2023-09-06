@@ -1,4 +1,9 @@
 export default function HeroSection() {
+    const linkedInUrl = 'https://www.linkedin.com/in/harshal-vaidya/';
+
+    const handleClick = () => {
+        window.open(linkedInUrl, '_blank');
+    };
     return (
         <section id='heroSection' className='hero--section'>
             <div className='hero--section--content--box'>
@@ -12,14 +17,18 @@ export default function HeroSection() {
                         Developer
                     </h1>
                     <p className='hero--section--description'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit.
+                        A dedicated and results-driven software engineer with
+                        three years of industry experience and a passion for
+                        learning and building.
                         <br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolorum exercitationem autem nulla.
+                        Seeking opportunities with teams that prioritize
+                        collaboration and creative problem-solving in shaping
+                        impactful, growing products.
                     </p>
                 </div>
-                <button className='btn btn-primary'>Get in Touch</button>
+                <button className='btn btn-primary' onClick={handleClick}>
+                    Get in Touch
+                </button>
             </div>
             <div className='hero--section--img'>
                 <img src='./img/LinkedInCopy.jpg' alt='Hero Section' />
