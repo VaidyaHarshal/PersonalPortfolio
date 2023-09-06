@@ -1,6 +1,21 @@
 import data from '../../data/index.json';
 
 export default function MyPortfolio() {
+    const gitHubUrl = 'https://github.com/VaidyaHarshal';
+    const booksUrl = 'https://github.com/VaidyaHarshal/house-of-books';
+    const stevensCareUrl = 'https://github.com/VaidyaHarshal/Stevens-care';
+    const parkingUrl = 'https://github.com/VaidyaHarshal/my-parking-assistant';
+
+    const handleClick = () => {
+        window.open(gitHubUrl, '_blank');
+    };
+
+    const projectClick = (index) => {
+        if (index == 1) window.open(booksUrl, '_blank');
+        else if (index == 2) window.open(stevensCareUrl, '_blank');
+        else if (index == 3) window.open(parkingUrl, '_blank');
+    };
+
     return (
         <section className='portfolio--section' id='MyPortfolio'>
             <div className='portfolio--container-box'>
@@ -9,7 +24,7 @@ export default function MyPortfolio() {
                     <h2 className='section--heading'>My Portfolio</h2>
                 </div>
                 <div>
-                    <button className='btn btn-github'>
+                    <button className='btn btn-github' onClick={handleClick}>
                         <svg
                             xmlns='http://www.w3.org/2000/svg'
                             width='32'
@@ -30,7 +45,11 @@ export default function MyPortfolio() {
             </div>
             <div className='portfolio--section--container'>
                 {data?.portfolio.map((item, index) => (
-                    <div key={index} className='portfolio--section--card'>
+                    <div
+                        key={index}
+                        className='portfolio--section--card'
+                        onClick={() => projectClick(item.id)}
+                    >
                         <div className='portfolio--section--img'>
                             <img src={item.src} alt='Placeholder' />
                         </div>

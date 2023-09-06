@@ -30,14 +30,14 @@
             "id": 1,
             "src": "./img/placeholder-img.jpg",
             "title": "House of Books",
-            "description": "A one-stop-destination web application for all the reading enthusiasts, booksellers and authors",
+            "description": "A one-stop-destination application for all the reading enthusiasts, booksellers and authors",
             "link": "View in Github"
         },
         {
             "id": 2,
             "src": "./img/placeholder-img-2.jpg",
             "title": "Stevens Care",
-            "description": "A web application that allows users to get help from doctor through online platform with the help of multiple questionnaire which will help doctor to diagnose their problems",
+            "description": "A web application that allows users to get help from doctor through online platform.",
             "link": "View in Github"
         },
         {
