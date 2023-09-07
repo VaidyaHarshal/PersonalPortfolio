@@ -6,7 +6,7 @@ function Footer() {
         <footer className='footer--container'>
             <div className='footer--link--container'>
                 <div>
-                    <img src='./img/logo.svg' alt='Logoipsum' />
+                    <img src='./logo.png' alt='Portfolio' />
                 </div>
                 <div className='footer--items'>
                     <ul>
@@ -68,7 +68,7 @@ function Footer() {
                     <ul>
                         <li>
                             <a
-                                href='https://www.facebook.com/'
+                                href='https://www.facebook.com/harshal.vaidya.10/'
                                 className='navbar--content'
                                 target='_blank'
                                 rel='noreferrer'
@@ -89,7 +89,7 @@ function Footer() {
                         </li>
                         <li>
                             <a
-                                href='https://www.instagram.com/'
+                                href='https://www.instagram.com/harshal_vaidya3695/'
                                 className='navbar--content'
                                 target='_blank'
                                 rel='noreferrer'
@@ -112,7 +112,7 @@ function Footer() {
                         </li>
                         <li>
                             <a
-                                href='https://www.twitter.com/'
+                                href='https://twitter.com/tofu3695'
                                 className='navbar--content'
                                 target='_blank'
                                 rel='noreferrer'
@@ -133,7 +133,7 @@ function Footer() {
                         </li>
                         <li>
                             <a
-                                href='https://www.linkedin.com/'
+                                href='https://www.linkedin.com/in/harshal-vaidya/'
                                 className='navbar--content'
                                 target='_blank'
                                 rel='noreferrer'
@@ -159,7 +159,7 @@ function Footer() {
             </div>
             <hr className='divider' />
             <div className='footer--content--container'>
-                <p className='footer--content'>Made with 💖 by John</p>
+                <p className='footer--content'>Made with 💖 by Harshal</p>
                 <div className='footer--social--icon'>
                     <ul>
                         <li>
