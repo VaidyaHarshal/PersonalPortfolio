@@ -26,13 +26,13 @@ export default function AboutMe() {
                     <p className='hero--section--description'>
                         I've undertaken challenging projects that showcase my
                         problem-solving abilities. Notable examples include
-                        'House of Books,' demonstrating my proficiency in Redis
-                        and automated hosting, and 'Stevens Care,' highlighting
-                        my real-time communication skills with Socket.IO. Beyond
-                        my technical expertise, I've contributed to the academic
-                        community as a Graduate Peer Leader at Stevens
-                        Institute, providing mentorship and support to fellow
-                        students.
+                        'House of Books,' demonstrating my proficiency in React,
+                        Redux, and automated hosting, and 'My Parking Assistant'
+                        highlighting my web development skills with Node.js,
+                        MongoDB. Beyond my technical expertise, I've contributed
+                        to the academic community as a Graduate Peer Leader at
+                        Stevens Institute, providing mentorship and support to
+                        fellow students.
                     </p>
                 </div>
             </div>
