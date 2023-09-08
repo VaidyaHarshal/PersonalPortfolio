@@ -1,3 +1,5 @@
+import CV from '../../../assets/HarshalVaidya_Resume.pdf';
+
 export default function HeroSection() {
     const linkedInUrl = 'https://www.linkedin.com/in/harshal-vaidya/';
 
@@ -26,9 +28,14 @@ export default function HeroSection() {
                         impactful, growing products.
                     </p>
                 </div>
-                <button className='btn btn-primary' onClick={handleClick}>
-                    Get in Touch
-                </button>
+                <div className='hero--section--contact--button'>
+                    <button className='btn btn-primary' onClick={handleClick}>
+                        Get in Touch
+                    </button>
+                    <a download='' href={CV} className='btn btn-primary'>
+                        Download CV
+                    </a>
+                </div>
             </div>
             <div className='hero--section--img'>
                 <img src='./img/LinkedInCopy.jpg' alt='Hero Section' />

@@ -213,6 +213,10 @@ h3 {
     align-items: flex-start;
     gap: 21.333px;
 }
+.hero--section--contact--button {
+    display: flex;
+    gap: 20px;
+}
 .hero--section--content--box > button {
     margin-top: 21.333px;
 }
