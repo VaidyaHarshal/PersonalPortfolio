@@ -1,16 +1,46 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 export default function ContactMe() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                'service_adq9ksb',
+                'template_1fqd672',
+                form.current,
+                'wx3rg8EOoVS23uQxz'
+            )
+            .then(
+                (result) => {
+                    console.log('Email sent successfully');
+                },
+                (error) => {
+                    console.log('Error in sending an email');
+                }
+            );
+        e.target.reset();
+    };
+
     return (
         <section id='Contact' className='contact--section'>
             <div>
                 <p className='sub--title'>Get In Touch</p>
                 <h2>Contact Me</h2>
                 <p className='text-lg'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Repudiandae similique magnam eos expedita nihil ipsum
-                    delectus architecto vitae fugit doloremque?
+                    I'm actively exploring full-time job opportunities and keen
+                    on engaging in meaningful tech discussions. Let's connect
+                    for a conversation!!
                 </p>
             </div>
-            <form className='contact--form--container'>
+            <form
+                ref={form}
+                className='contact--form--container'
+                onSubmit={sendEmail}
+            >
                 <div className='container'>
                     <label htmlFor='first-name' className='contact--label'>
                         <span className='text-md'>First Name</span>
@@ -58,11 +88,12 @@ export default function ContactMe() {
                     <select
                         id='choose-topic'
                         className='contact--input text-md'
+                        name='choose-topic'
                     >
                         <option>Select One...</option>
-                        <option>Item 1</option>
-                        <option>item 2</option>
-                        <option>Item 3</option>
+                        <option>Job Opportunity</option>
+                        <option>Networking</option>
+                        <option>Tech Talk</option>
                     </select>
                 </label>
                 <label htmlFor='message' className='contact--label'>
@@ -71,17 +102,9 @@ export default function ContactMe() {
                         className='contact--input text-md'
                         id='message'
                         rows='8'
+                        name='message'
                         placeholder='Type your message...'
                     ></textarea>
-                </label>
-                <label htmlFor='check-box' className='checkbox--label'>
-                    <input
-                        type='checkbox'
-                        name='checkbox'
-                        id='checkbox'
-                        required
-                    ></input>
-                    <span className='text-sm'>I accept the terms</span>
                 </label>
                 <div>
                     <button className='btn btn-primary contact--form--btn'>
