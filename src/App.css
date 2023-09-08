@@ -527,6 +527,7 @@ select {
     }
     .skills--section--card {
         gap: 28px;
+        height: 200px;
     }
     .skills--section--card--content {
         gap: 20px;
