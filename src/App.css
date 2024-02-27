@@ -189,6 +189,11 @@ h3 {
     color: var(--primary);
 }
 
+.navbar--logo {
+    width: 50px;
+    height: auto;
+}
+
 /* Navbar Style Ends */
 
 /* Hero Section Style */

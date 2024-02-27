@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
+import InitialsImage from '../../../public/Initials.png'
 
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
@@ -34,7 +35,7 @@ function Navbar() {
     return (
         <nav className={`navbar ${navActive ? 'active' : ''}`}>
             <div>
-                <img src='./logo.png' alt='MyPortfolio' />
+                <img src={InitialsImage} alt='MyPortfolio' className='navbar--logo' />
             </div>
             <a
                 className={`nav__hamburger ${navActive ? 'active' : ''}`}
