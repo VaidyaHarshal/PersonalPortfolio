@@ -13,7 +13,7 @@ export default function HeroSection() {
                     <p className='section--title'>Hey, I'm Harshal</p>
                     <h1 className='hero--section--title'>
                         <span className='hero--section--title--color'>
-                            Full Stack
+                            Software
                         </span>
                         <br />
                         Developer

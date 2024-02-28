@@ -31,9 +31,7 @@ export default function ContactMe() {
                 <p className="sub--title">Get In Touch</p>
                 <h2>Contact Me</h2>
                 <p className="text-lg">
-                    I'm actively exploring full-time job opportunities and keen
-                    on engaging in meaningful tech discussions. Let's connect
-                    for a conversation!!
+                    Let's Chat! Have a question, idea, or just want to say hello? I'd love to hear from you! Feel free to reach out using the contact form below, or if you prefer a more immediate conversation, don't hesitate to send me a message via email or connect with me on social media. I'm here and eager to chat with you about anything you'd like!
                 </p>
             </div>
             <form
