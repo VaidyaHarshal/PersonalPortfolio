@@ -5,6 +5,8 @@ export default function MyPortfolio() {
     const booksUrl = 'https://github.com/VaidyaHarshal/house-of-books';
     const stevensCareUrl = 'https://github.com/VaidyaHarshal/Stevens-care';
     const parkingUrl = 'https://github.com/VaidyaHarshal/my-parking-assistant';
+    const expenseTracker = "https://github.com/VaidyaHarshal/ExpenseTracker"
+    const weatherApp = 'https://github.com/VaidyaHarshal/WeatherApp';
 
     const handleClick = () => {
         window.open(gitHubUrl, '_blank');
@@ -14,6 +16,8 @@ export default function MyPortfolio() {
         if (index == 1) window.open(booksUrl, '_blank');
         else if (index == 2) window.open(stevensCareUrl, '_blank');
         else if (index == 3) window.open(parkingUrl, '_blank');
+        else if (index == 4) window.open(expenseTracker, '_blank');
+        else if (index == 5) window.open(weatherApp, '_blank');
     };
 
     return (

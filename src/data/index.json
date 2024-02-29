@@ -46,6 +46,20 @@
             "title": "My Parking Assistant",
             "description": "A parking booking application designed to list and rent out parking spaces",
             "link": "View in Github"
+        },
+        {
+            "id": 4,
+            "src": "./img/expensetracking.jpg",
+            "title": "Expense Minder",
+            "description": "Help to track your finances seamlessly: Introducing ExpenseMinder",
+            "link": "View in Github"
+        },
+        {
+            "id": 5,
+            "src": "./img/weatherapp.jpg",
+            "title": "SkyView",
+            "description": "SkyView provides real-time weather forecasts for your location.",
+            "link": "View in Github"
         }
     ]
 }
