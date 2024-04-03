@@ -30,7 +30,7 @@
             "id": 1,
             "src": "./img/placeholder-img.jpg",
             "title": "House of Books",
-            "description": "A one-stop-destination application for all the reading enthusiasts, booksellers and authors",
+            "description": "One destination web application for reading enthusiasts, booksellers and authors",
             "link": "View in Github"
         },
         {
@@ -43,7 +43,7 @@
         {
             "id": 3,
             "src": "./img/placeholder-img-1.jpg",
-            "title": "My Parking Assistant",
+            "title": "Parking Assistant",
             "description": "A parking booking application designed to list and rent out parking spaces",
             "link": "View in Github"
         },
@@ -51,14 +51,14 @@
             "id": 4,
             "src": "./img/expensetracking.jpg",
             "title": "Expense Minder",
-            "description": "Help to track your finances seamlessly: Introducing ExpenseMinder",
+            "description": "An application to track your finances seamlessly: Introducing ExpenseMinder",
             "link": "View in Github"
         },
         {
             "id": 5,
             "src": "./img/weatherapp.jpg",
             "title": "SkyView",
-            "description": "SkyView provides real-time weather forecasts for your location.",
+            "description": "SkyView is a web application that provides real-time weather forecasts for your location.",
             "link": "View in Github"
         }
     ]
