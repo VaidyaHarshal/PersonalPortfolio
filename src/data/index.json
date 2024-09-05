@@ -1,65 +1,65 @@
 {
-    "skills": [
-        {
-            "id": 1,
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End",
-            "description": "JavaScript, React, Redux, HTML, CSS."
-        },
-        {
-            "id": 2,
-            "src": "./img/tag-1.png",
-            "title": "Back-End",
-            "description": "Java, C/C++, Python, Node.js, Express"
-        },
-        {
-            "id": 3,
-            "src": "./img/feather-pen-2.png",
-            "title": "Database",
-            "description": "MySQL, MongoDB, PostgreSQL, SQL, Oracle."
-        },
-        {
-            "id": 4,
-            "src": "./img/feather-pen-1.png",
-            "title": "Web Development",
-            "description": "Redis, GraphQL, Firebase, Socket.IO, Heroku, Netlify."
-        }
-    ],
-    "portfolio": [
-        {
-            "id": 1,
-            "src": "./img/placeholder-img.jpg",
-            "title": "House of Books",
-            "description": "One destination web application for reading enthusiasts, booksellers and authors",
-            "link": "View in Github"
-        },
-        {
-            "id": 2,
-            "src": "./img/placeholder-img-2.jpg",
-            "title": "Stevens Care",
-            "description": "A web application that allows users to get help from doctor through online platform.",
-            "link": "View in Github"
-        },
-        {
-            "id": 3,
-            "src": "./img/placeholder-img-1.jpg",
-            "title": "Parking Assistant",
-            "description": "A parking booking application designed to list and rent out parking spaces",
-            "link": "View in Github"
-        },
-        {
-            "id": 4,
-            "src": "./img/expensetracking.jpg",
-            "title": "Expense Minder",
-            "description": "An application to track your finances seamlessly: Introducing ExpenseMinder",
-            "link": "View in Github"
-        },
-        {
-            "id": 5,
-            "src": "./img/weatherapp.jpg",
-            "title": "SkyView",
-            "description": "SkyView is a web application that provides real-time weather forecasts for your location.",
-            "link": "View in Github"
-        }
-    ]
+  "skills": [
+    {
+      "id": 1,
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "JavaScript, TypeScript, React.js, GraphQL, HTML, CSS."
+    },
+    {
+      "id": 2,
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Node.js, Express.js, Java, C/C++, Python."
+    },
+    {
+      "id": 3,
+      "src": "./img/feather-pen-2.png",
+      "title": "Database",
+      "description": "SQL (MySQL, PostgreSQL), NoSQL (MongoDB), Redis, Docker, AWS, Firebase."
+    },
+    {
+      "id": 4,
+      "src": "./img/feather-pen-1.png",
+      "title": "Testing",
+      "description": ": Unit (Jest, Mocha, Chai), End-to-End (Cypress), Postman, SASS, SCSS, Selenium."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "src": "./img/placeholder-img.jpg",
+      "title": "House of Books",
+      "description": "One destination web application for reading enthusiasts, booksellers and authors",
+      "link": "View in Github"
+    },
+    {
+      "id": 2,
+      "src": "./img/placeholder-img-2.jpg",
+      "title": "Stevens Care",
+      "description": "A web application that allows users to get help from doctor through online platform.",
+      "link": "View in Github"
+    },
+    {
+      "id": 3,
+      "src": "./img/placeholder-img-1.jpg",
+      "title": "Parking Assistant",
+      "description": "A parking booking application designed to list and rent out parking spaces",
+      "link": "View in Github"
+    },
+    {
+      "id": 4,
+      "src": "./img/expensetracking.jpg",
+      "title": "Expense Minder",
+      "description": "An application to track your finances seamlessly: Introducing ExpenseMinder",
+      "link": "View in Github"
+    },
+    {
+      "id": 5,
+      "src": "./img/weatherapp.jpg",
+      "title": "SkyView",
+      "description": "SkyView is a web application that provides real-time weather forecasts for your location.",
+      "link": "View in Github"
+    }
+  ]
 }
