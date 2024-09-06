@@ -200,7 +200,7 @@ h3 {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 75.333px;
+  padding: 133.333px 85.333px 65.333px;
   align-items: center;
   justify-content: space-between;
   gap: 33px;
@@ -257,7 +257,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 106.667px;
+  gap: 50px;
 }
 .skills--section--heading {
   color: var(--heading-color);
@@ -341,10 +341,10 @@ h3 {
 /* My Portfolio Starts */
 .portfolio--section {
   display: flex;
-  padding: 112px 85px;
+  padding: 50px 20px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 80px;
+  gap: 50px;
 }
 .portfolio--container-box {
   display: flex;
@@ -416,7 +416,7 @@ h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 64px;
+  gap: 50px;
 }
 .contact--form--container {
   display: grid;
