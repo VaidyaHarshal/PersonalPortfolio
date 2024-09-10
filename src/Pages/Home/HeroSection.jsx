@@ -17,8 +17,9 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section--description">
-            A dedicated and results-driven software engineer with four years of
-            industry experience and a passion for learning and building.
+            A dedicated and results-driven software engineer with over four
+            years of industry experience and a passion for learning and
+            building.
             <br />
             Seeking opportunities with teams that prioritize collaboration and
             creative problem-solving in shaping impactful, growing products.
