@@ -7,17 +7,18 @@ export default function AboutMe() {
       <div className="hero--section--content--box about--section--box">
         <h1 className="skills--section--heading">About Me</h1>
         <p className="hero--section--description">
-          Hello, I'm Harshal Vaidya, a versatile software engineer with a
-          passion for crafting innovative solutions. My journey is marked by
-          academic excellence, professional achievements, and a commitment to
-          staying at the forefront of technology.
+          Hello, I'm Harshal Vaidya, a software engineer with a strong
+          background in web development. My journey is marked by academic
+          excellence, professional achievements, and a commitment to staying at
+          the forefront of technology.
         </p>
         <p className="hero--section--description">
-          I hold a Master's in Computer Science from Stevens Institute of
+          I hold a Master's degree in Computer Science from Stevens Institute of
           Technology, where I maintained a GPA of 3.9/4. My professional journey
-          includes a tenure as a Software Engineer at ICICI Securities. There, I
-          optimized performance, achieved significant investment growth, and
-          developed critical monitoring systems.
+          includes a tenure as a Software Engineer at ICICI Securities and Apex
+          Systems. There, I developed, optimized and tested frontend
+          functionalities providing efficient and engaging interfaces to users
+          enhancing user experience.
         </p>
         <p className="hero--section--description">
           I've undertaken challenging projects that showcase my problem-solving
