@@ -5,7 +5,7 @@ export default function AboutMe() {
         <img src="./img/LinkedInCopy2.jpg" alt="About Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
-        <h1 className="skills--section--heading">About Me</h1>
+        <h2 className="skills--section--heading">About Me</h2>
         <p className="hero--section--description">
           Hello, I'm Harshal Vaidya, a software engineer with a strong
           background in web development. My journey is marked by academic

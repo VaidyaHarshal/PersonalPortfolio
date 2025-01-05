@@ -33,7 +33,7 @@ p {
   padding: 14px 32px;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
   cursor: pointer;
   text-align: center;
@@ -179,9 +179,9 @@ h3 {
 /* Navbar Content */
 .navbar--content {
   color: var(--darkblue);
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
   cursor: pointer;
 }
@@ -227,7 +227,7 @@ h3 {
 }
 .hero--section--title {
   color: var(--heading-color);
-  font-size: 74.667px;
+  font-size: 74px;
   font-weight: 700;
   line-height: 90px;
   align-self: stretch;
@@ -237,7 +237,7 @@ h3 {
 }
 .hero--section--description {
   color: var(--darkblue);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 36px;
 }
@@ -261,7 +261,7 @@ h3 {
 }
 .skills--section--heading {
   color: var(--heading-color);
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 77px;
 }
@@ -308,16 +308,16 @@ h3 {
 }
 .skills--section--title {
   color: var(--heading-color);
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 45px;
 }
 .skills--section--description {
   color: var(--black);
-  font-size: 21.3px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 1.6;
 }
 /* Skills Style Ends */
 
@@ -384,6 +384,7 @@ h3 {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   min-height: 550px;
+  overflow: hidden;
 }
 .portfolio--section--card--content {
   display: flex;
@@ -391,7 +392,6 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  align-self: stretch;
 }
 .portfolio--section--title {
   color: var(--heading-color);
@@ -488,6 +488,7 @@ select {
 }
 .footer--items ul > li > a {
   text-decoration: none;
+  font-weight: 600;
 }
 .footer--social--icon > ul {
   list-style: none;
@@ -519,12 +520,8 @@ select {
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
   .hero--section--title {
-    font-size: 68px;
+    font-size: 74px;
     line-height: 70px;
-  }
-  .skills--section--title {
-    font-size: 28px;
-    line-height: 40px;
   }
 }
 
