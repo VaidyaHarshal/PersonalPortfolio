@@ -51,6 +51,7 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="first-name"
               id="first-name"
+              placeholder="Harshal"
               required
             ></input>
           </label>
@@ -61,6 +62,7 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="last-name"
               id="last-name"
+              placeholder="Vaidya"
               required
             ></input>
           </label>
@@ -71,6 +73,7 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="email"
               id="email"
+              placeholder="name@example.com"
               required
             ></input>
           </label>
@@ -81,6 +84,7 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"
+              placeholder="XXX-XXX-XXXX"
               required
             ></input>
           </label>
