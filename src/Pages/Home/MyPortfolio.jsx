@@ -23,9 +23,8 @@ export default function MyPortfolio() {
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
-        <div className="portfolio--container">
-          <h2 className="section--heading">My Portfolio</h2>
-        </div>
+        <h2 className="section--heading">My Portfolio</h2>
+
         <div>
           <button className="btn btn-github" onClick={handleClick}>
             <svg
