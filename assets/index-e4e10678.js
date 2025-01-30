@@ -11674,7 +11674,7 @@ K.default = {
     ScrollElement: md.default,
     Helpers: vd.default
 };
-const yd = "/assets/Initials-0d54ff7d.png";
+const yd = "./assets/Initials-0d54ff7d.png";
 function z1() {
     const [e,t] = T.useState(!1)
       , n = () => {
